@@ -175,30 +175,6 @@ public class FunWithArrays {
 		return(na);
 	}
 	
-	
-	/**
-	 * popFront method: pops the integer from the front of the array (array[a.length])
-	 * 
-	 * @param a array to work on
-	 * @param n number to pop off the array
-	 * @return newArray
-	 */
-	
-	public static int [] popFront(int [] a, int n) {
-		
-		int [] na = new int [a.length-1];
-		int d = 0;
-		
-		na[0] = n; // add n to the front of the array
-		for (int i=0; i<=a.length-1; i++) {
-			na[i] = a[i]; // copy elements of array a to array na
-			if (i== a.length-1) {
-				d = a[i];
-			}
-		}
-		return(na);
-	}
-	
 
 	public static void main(String[] args) {
 		
